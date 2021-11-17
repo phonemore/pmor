@@ -1,5 +1,8 @@
 
-document.getElementsByClassName("navbar-brand")[0].getElementsByTagName('a')[0].innerHTML="PhoneMore";
+
+$(document).ready(function(){
+  $(".navbar-brand").text("New Text");
+});
 function isUrl(data){
   try{
     new URL(data);
