@@ -2,7 +2,7 @@
   "name-web":"Phone More",
   "author":"Jhuan Sox",
   "remove-comment-html":true,
-  "target":"https://droidapp.nl",
+  "target":"https://www.droidapp.nl",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "gdpr",
