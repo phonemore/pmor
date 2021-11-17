@@ -1,8 +1,3 @@
-
-
-$(document).ready(function(){
-  $(".navbar-brand").text("New Text");
-});
 function isUrl(data){
   try{
     new URL(data);
@@ -155,4 +150,6 @@ dataLazy.forEach(function(a){
     };
   };
 });
-
+$(document).ready(function(){
+  $(".navbar-brand a").text("New Text");
+});
