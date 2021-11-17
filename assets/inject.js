@@ -1,3 +1,5 @@
+
+document.getElementsByClassName("navbar-brand")[0].getElementsByTagName('a')[0].innerHTML="PhoneMore";
 function isUrl(data){
   try{
     new URL(data);
