@@ -1,5 +1,5 @@
 {
-  "name-web":"Phone More",
+  "name-web":"DroidApp",
   "author":"Jhuan Sox",
   "remove-comment-html":true,
   "target":"https://www.droidapp.nl",
@@ -203,7 +203,6 @@
           "value-attribute":"${nameWeb}"
         }
       ],
-,
       "data-innerHTML":"",
       "position":"start"
     },
