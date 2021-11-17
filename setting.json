@@ -215,7 +215,7 @@
         },
         {
           "name-attribute":"href",
-          "value-attribute":"www.droidapp.nl/favicon.ico?v=2"
+          "value-attribute":"https://www.droidapp.nl/favicon.ico?v=2"
         }
       ], 
      "data-innerHTML":"",
@@ -234,7 +234,7 @@
        },
         {
           "name-attribute":"href",
-          "value-attribute":"www.droidapp.nl/favicon180.png"
+          "value-attribute":"https://www.droidapp.nl/favicon180.png"
         },
       {
         "name-attribute":"sizes",
