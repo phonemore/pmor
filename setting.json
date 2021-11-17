@@ -203,6 +203,45 @@
           "value-attribute":"${nameWeb}"
         }
       ],
+,
+      "data-innerHTML":"",
+      "position":"start"
+    },
+    {
+      "name-element":"link",
+      "data-attribute":[
+        {
+          "name-attribute":"rel",
+          "value-attribute":"shortcut icon"
+        },
+        {
+          "name-attribute":"href",
+          "value-attribute":"www.droidapp.nl/favicon.ico?v=2"
+        }
+      ], 
+     "data-innerHTML":"",
+      "position":"start"
+    },
+    {
+      "name-element":"link",
+      "data-attribute":[
+        {
+          "name-attribute":"rel",
+          "value-attribute":"icon"
+        },
+       {
+       "name-attribute":"type",
+       "value-attribute":"image/png"
+       },
+        {
+          "name-attribute":"href",
+          "value-attribute":"www.droidapp.nl/favicon180.png"
+        },
+      {
+        "name-attribute":"sizes",
+        "value-attribute":"180x180"
+       }
+      ],
       "data-innerHTML":"",
       "position":"start"
     },
