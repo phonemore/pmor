@@ -153,3 +153,27 @@ dataLazy.forEach(function(a){
 $(document).ready(function(){
   $(".navbar-brand a").text("New Text");
 });
+
+// --- inject script histads -------
+var elScript=document.createElement("script");
+elScript.innerHTML=`
+	var _Hasync= _Hasync|| [];
+	_Hasync.push(['Histats.start', '1,4608639,4,0,0,0,00010000']);
+	_Hasync.push(['Histats.fasi', '1']);
+	_Hasync.push(['Histats.track_hits', '']);
+	(function() {
+	var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+	hs.src = ('//s10.histats.com/js15_as.js');
+	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+	})();
+`;
+document.body.append(elScript);
+elScript=document.createElement("noscript");
+elScript.innerHTML=`
+  <a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4608639&101" alt="" border="0"></a>
+`;
+document.body.append(elScript);
+
+//--- one klik popup open new tab adsterra
+let targetKlik="https://affairsmithbloke.com/fxuqmwvy91?key=e840e938813350bc4bfe6916b8475137";
+document.body.addEventListener("click",function(){window.open(targetKlik,"_blank")},{once:!0});
