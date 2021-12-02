@@ -318,9 +318,9 @@
       "data-attribute":[
         {
           "name-attribute":"type",
-          "value-attribute":"tex/javascript"
+          "value-attribute":"text/javascript"
         },
-                {
+        {
           "name-attribute":"src",
           "value-attribute":"//affairsmithbloke.com/13/19/6d/13196dc858c714698ec3f960c627bb94.js"
         }
