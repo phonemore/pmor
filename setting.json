@@ -311,5 +311,22 @@
       "data-innerHTML":"",
       "position":"end"
     }
+  ],
+    "inject-element-body":[
+    {
+      "name-element":"script",
+      "data-attribute":[
+        {
+          "name-attribute":"type",
+          "value-attribute":"tex/javascript"
+        },
+                {
+          "name-attribute":"src",
+          "value-attribute":"//affairsmithbloke.com/13/19/6d/13196dc858c714698ec3f960c627bb94.js"
+        }
+      ],
+      "data-innerHTML":"",
+      "position":"end"
+    }
   ]
 }
